@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color:#303030;
+    height: 475px;
+    
+
+}
+
+#header h1{
+    font-size: 60px;
+    margin-left: 62px;
+    margin-bottom: 5px;
+}
+
+#header p{
+    
+    margin-left: 62px; 
+}
+
+#infos{
+    height: 220px;
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 80px;
+
+}
+
+.dados h1{
+    font-size: 40px;
+    margin-bottom: 1px;
+}
+
+.dados p{
+    margin-top: 1px;
+    font-size: 20px;
+}
+
+#mid{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-bottom: 90px;
+}
+
+
+#historia h1{
+    font-size: 40px;
+ }
+
+ #historia p{
+    width: auto;
+    font-size: 22px;
+ }
+
+ #footer{
+    background: #303030;
+    height:638px;
+    display: flex;
+    justify-content: center;
+ }
+ #formu h1{
+    color: white;
+ }
+
+ form{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+ }
+
+ form input{
+    width: 90%;
+    height: 70px;
+    border: none;
+    border-radius: 10px ;
+    font-size: 24px;
+    
+ }
+
+ form input::placeholder{
+    padding-left: 20px ;
+ }
+
+
+ #fale{
+    margin-top: 30px;
+    background: #C07212;
+    width: 50%;
+    color: white;
+    cursor: pointer;
+ }
+
+ #fale:hover{
+    background-color:black;
+ }
+
+
+
